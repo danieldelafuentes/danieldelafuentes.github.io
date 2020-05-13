@@ -61,7 +61,7 @@ var Particles = (function(window, document) {
       50
       ,
               connectParticles: 
-      true
+      false
             }
           }, {
             breakpoint: 
