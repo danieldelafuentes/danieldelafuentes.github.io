@@ -37,46 +37,9 @@ var Particles = (function(window, document) {
       var _ = this;
 
       _.defaults = {
-        responsive: [
-          {
-            breakpoint: 
-      768
-      ,
-            options: {
-              maxParticles: 
-      50
-      ,
-              color: 
-      '#222525'
-      ,
-              connectParticles: 
-      false
-            }
-          }, {
-            breakpoint: 
-      425
-      ,
-            options: {
-              maxParticles: 
-      50
-      ,
-              connectParticles: 
-      false
-            }
-          }, {
-            breakpoint: 
-      320
-      ,
-            options: {
-              maxParticles: 
-      25
-       
-      // disables particles.js
-            }
-          }
-        ],
+        responsive: null,
         selector: null,
-        maxParticles: 300,
+        maxParticles: 125,
         sizeVariations: 3,
         showParticles: true,
         speed: 0.5,
